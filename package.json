@@ -1,24 +1,29 @@
 {
-  "name": "nytimes-wrap",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "nyt",
+  "version": "0.1.0",
+  "description": "NYT is a wrapper around the New York Times API",
+  "main": "nyt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spencehood/nytimes-wrap.git"
+    "url": "git@github.com:czarlos/nyt.git"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.11.2",
-    "qs": "^2.3.2",
-    "twitter": "^1.2.1"
-  },
+  "keywords": [
+    "nyt",
+    "news",
+    "new",
+    "york",
+    "times"
+  ],
+  "author": "Carlos Reyes",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spencehood/nytimes-wrap/issues"
+    "url": "https://github.com/czarlos/nyt/issues"
   },
-  "homepage": "https://github.com/spencehood/nytimes-wrap"
+  "homepage": "https://github.com/czarlos/nyt",
+  "dependencies": {
+      "querystring": "0.2.0"
+  }
 }
